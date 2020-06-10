@@ -40,8 +40,8 @@
 			 "AMIC3", "MIC BIAS External";
 		/*the_shahnawaz_sheikh, Modify end*/
 		/delete-property/ qcom,cdc-us-euro-gpios;
-		spk-pa-en = <&msm_gpio 20 0x00>;
-		yda145_boost-en = <&msm_gpio 118 0x00>;
+		spk-pa-en = <&msm_gpio 120 0>;
+		yda145_boost-en = <&msm_gpio 118 0>;
 		/*the_shahnawaz_sheikh, add for after evt2 headset compatible*/
     	pcb-ver-flag0 = <&msm_gpio 50 0x00>;
     	pcb-ver-flag1 = <&msm_gpio 51 0x00>;
