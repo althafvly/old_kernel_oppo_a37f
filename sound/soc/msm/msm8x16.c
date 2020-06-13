@@ -3744,7 +3744,7 @@ static int msm8x16_asoc_machine_probe(struct platform_device *pdev)
 	}
 
 #ifdef CONFIG_MACH_OPPO
-	if (is_project(OPPO_15109)) {
+	if (is_project(OPPO_15109) || is_project(OPPO_15399)) {
 		pdata->spk_pa_en = of_get_named_gpio(pdev->dev.of_node,
 				"spk-pa-en", 0);
 		pr_err("pdata->spk_pa_en = %d\n",pdata->spk_pa_en);
